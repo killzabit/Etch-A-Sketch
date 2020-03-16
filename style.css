@@ -1,0 +1,31 @@
+body {
+  background: white;
+}
+
+.mainBox {
+  display:flex;
+  flex-direction: column;
+  border: 4px purple double;
+  height:500px;
+  width: 1000px;
+  position: absolute;
+  top: 28%; left: 10%;
+}
+
+.row {
+  flex:1 0 0px;
+  display:flex;
+
+}
+
+.column {
+  flex:1 0 0px;
+  opacity: 0.1;
+  background: black;  
+}
+
+.gridSize {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
