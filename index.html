@@ -7,17 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="gridSize"> 
-        Rows: <input type="text" id="rowAmt">
-        Columns: <input type="text" id="colAmt">
-        <button id="gridBtn">Submit</button>
+    <div class="inputBox">
+        <div class="gridSize"> 
+            Rows: <input class="gridInput" type="text" id="rowAmt">
+            Columns: <input class="gridInput" type="text" id="colAmt">
+            <button id="gridBtn">Submit</button>
+        </div>
+        <input type="checkbox" id="shading"><div id="shadeText">Shading Pencil</div></input>
+        <input type="checkbox" id="rngColor"><div id="rngColorText">Random Colors</div></input>
+        <button id="disco">DISCO</button>
+        <input type="color" id="colorPicker"><div id="colorPickerText">Pick Color Above</div>
+        <button id="reset">Reset grid</button>
     </div>
-    <input type="checkbox" id="shading">Shading</input>
-    <input type="checkbox" id="rngColor">Random colors</input>
-    <button id="disco">DISCO</button>
-    <input type="color" id="colorPicker">
-    <button id="reset">Reset grid</button>
     <div class="mainBox" id="mainBox"></div>
+    <div id="warning">SEIZURE WARNING FOR DISCO</div>
+    <div class="sideText" id="leftST">MAKE A GRID</div>
+    <div class="sideText" id="rightST">DO A THING</div>
+
+    
     <script src="script.js"></script>
 </body>
 </html>
